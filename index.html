@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">  
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+        <title> WILL YOU BE MY VALENTINE?</title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-size: 2rem;
+            }
+            
+            body {
+            
+                height: 100vh;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+
+             }
+             button{
+                display: flex;
+                gap: 30px;
+                margin-top: 20px;
+             }
+             button{
+                padding: .5 1rem;
+                width: 80px;
+                height: 40px;
+                border: none;
+             }
+             .yes {
+                background-color: teal;
+             }
+             .yes:hover{
+                background-color: rgba(red, green, blue, alpha);
+             }
+             .no{
+                background-color: red;
+             }
+             .no:hover{
+                background-color: rgba(red, green, blue, alpha);
+             }
+        </style>
+    </head>
+        <body>
+            <h1> will you be my Galentine?</h1>
+            <img src="cat-throwing.gif" alt="" width="300px" height="300px">
+            <div>
+            <button class="yesButton" onclick="changeGif()">YESS</button>
+            <Button class="noButton" onclick="askAgain()">NO</button>
+            </div>
+                <script>
+                    function changeGif() {
+                        alert("Yay I love youuuuuu kajuuu bajuuuu mero kanchuuu");
+                    }
+                    function askAgain() {
+                        alert("PITAI KHANCHAU MERO ABA!");
+                    }
+                </script>
+            
+        </body>
+    
+    </head>
+</html>
